@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ThongTinActivity"
+    android:background="#D9EAC5">
+
+    <ImageView
+        android:id="@+id/backBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:src="@drawable/arrow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:src="@drawable/img"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Ứng dụng mua giày ADS là một ứng dụng mua bán giày trực tuyến được cung cấp trên điện thoại di động. Ứng dụng này nhằm mục đích giúp người dùng có thể mua giày, xem giày,... trên một chiếc điện thoại di động . Ứng dụng được thiết kế với giao diện đơn giản, dễ sử dụng, ứng dụng được xây dựng trên nền tảng Android."
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:textColor="#10A4E6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backBtn" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
